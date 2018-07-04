@@ -1,7 +1,4 @@
 #
-#
-#\rm -rf ~/Applications;git clone https://github.com/users-alex/applications-linux.git /tmp/$CACHEDIR/Applications;ln -s /tmp/$CACHEDIR/Applications ~/Applications &
-#
 #( cat; echo ---; cat <&3 ) <<EOF 3<<EOF2
 ########################
 ###  CUSTOMIZE TOOLS ###
