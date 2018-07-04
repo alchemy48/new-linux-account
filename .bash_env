@@ -1,0 +1,4 @@
+export SCRIPTSRUNHISTORY=$SCRIPTSRUNHISTORY:bash_env
+export GO15VENDOREXPERIMENT=1
+export KUBECONFIG=/home/alex2006hw/.bluemix/plugins/container-service/clusters/tropospheric-cluster/kube-config-mil01-tropospheric-cluster.yml
+

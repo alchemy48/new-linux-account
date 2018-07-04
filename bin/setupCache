@@ -1,0 +1,5 @@
+#
+# Cache setup
+#
+CACHEDIR=`date +%s | sha256sum | base64 | head -c 32 ; echo`
+\rm -rf ~/.cache;\rm -rf /tmp/$CACHEDIR;mkdir -p /tmp/$CACHEDIR;ln -s /tmp/$CACHEDIR ~/.cache
