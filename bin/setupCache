@@ -3,3 +3,8 @@
 #
 CACHEDIR=`date +%s | sha256sum | base64 | head -c 32 ; echo`
 \rm -rf ~/.cache;\rm -rf /tmp/$CACHEDIR;mkdir -p /tmp/$CACHEDIR;ln -s /tmp/$CACHEDIR ~/.cache
+mkdir -p $HOME/.cache/node-gyp \
+$HOME/.cache/npm \
+$HOME/.cache/ccache \
+$HOME/.cache/bitmonero \
+$HOME/.cache/gvm/archive
